@@ -7,7 +7,7 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": ["practice/*"]
     },
     "strict": true,
     "noImplicitAny": true,
@@ -18,7 +18,7 @@
     "noImplicitThis": true,
     "alwaysStrict": true,
     "moduleResolution": "node",
-    "types": ["node", "reflect-metadata", "jest"],
+    "types": ["node", "reflect-metadata"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
@@ -26,6 +26,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["./src/**/*", "./test/**/*"],
+  "include": ["./practice/**/*"],
   "exclude": ["node_modules", "dist"]
 }
