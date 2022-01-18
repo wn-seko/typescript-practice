@@ -15,6 +15,7 @@
 - UnionType を使用した時どうなるの？
   - [UnionTypes](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) でやってみる
 - Mixin ってなに？
+- 型アサーションは使うべきではないのか？
 
 ## 次回以降やりたいこと
 
